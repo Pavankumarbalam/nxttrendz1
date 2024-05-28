@@ -1,0 +1,6 @@
+2024-05-28 10:19:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE category ( id INTEGER PRIMARY KEY [*]AUTOINCREMENT, name TEXT NOT NULL, description TEXT )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE category ( id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, description TEXT ) [42001-214]
+2024-05-28 10:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE product ( productId INT PRIMARY KEY [*]AUTOINCREMENT, productName varchar(255), price DOUBLE )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE product ( productId INT PRIMARY KEY AUTOINCREMENT, productName varchar(255), price DOUBLE ) [42001-214]
